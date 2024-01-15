@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+
+body{
+    // <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 200 to 1000
+
+.mulish-<uniquifier> {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+}
+/* shared style */
+
+.span{
+    color: #FF5400;
+}
+.btn-primary{
+width: 174px;
+background-color: #FF5400;
+border: none;
+border-radius: 8px;
+padding: 14px 34px 13px 35px;
+color: #FFFFFF;
+}
+
+/* nav related style */
+
+nav{
+    border: 2px solid red;
+    margin: 52px 135px;
+}
+
+.nav-container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 398.37px;
+}
+
+.nav-heading{
+   border: 1px solid;
+    display: flex;
+    align-items: center;
+    gap: 16.63px;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.nav-anchor{
+    border: 1px solid;
+   /* width: auto;
+   height: auto; */
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nav-anchor a{
+text-decoration: none;
+padding-left: 44px;
+font-size: 18px;
+font-weight: 400;
+color: #424247;
+}
+.nav-anchor > a > #home{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* banner related style */
+
+.banner{
+    border: 1px solid;
+    margin: 50px 135px 0px 135px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    border-radius: 16px;
+}
+.banner-main > .banner-heading{
+   /* width: 596px; */
+    margin: 106px 287px 0px 287px;
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.banner-main > .banner-description{
+    margin: 24px 247px 48px 247px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    
+    
+}
+.banner-main > .banner-input{
+    margin: 0px 185px 106px 185px;
+    gap: 24px;
+}
+.banner-input > input{
+    /* width: 174px; */
+    height: 52px;
+   color: #FFFFFF;
+   padding: 16px 113px 16px 15px;
+   border-radius: 8px;
+   border: none;
+   
+}
+/* tour section style */
+
+.tour{
+    margin: 100px 135px 0px 135px;
+    display: flex;
+    justify-content: space-between;
+    gap: 53px;
+    
+}
+
+.tour-container{
+   
+    width: 50% ;
+}
+.tour-image{
+    width: 45%;
+}
+.tour-image img{
+   
+    width: 100%;
+  
+}
+.tour-container .tour-heading{
+   
+    width: 355px;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+    align-items: center;
+
+}
+.tour-container .tour-description{
+    
+    width: 577px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #131318B2;
+    margin: 24px 0px 24px 0px;
+}
+.tour-container .tour-description2 {
+  
+    width: 525px;
+    height: calc(100% - 355px);
+    margin-right: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #131318B2;
+}
+
+.tour-container .tour-description3{
+    width: 530px;
+    height: 104px;
+    margin-top: 24px;
+    margin-right: 48px;
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #131318B2;
+}
